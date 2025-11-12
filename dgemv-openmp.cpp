@@ -26,8 +26,8 @@ void my_dgemv(int n, double* A, double* x, double* y) {
    // and you will want to comment out the above parallel code block that prints out
    // nthreads and thread_id so as to not taint your timings
    const double* __restrict Ax = A;
-   const double* __restrict X  = x;
-   double*       __restrict Y  = y;
+   const double* __restrict X = x;
+   double* __restrict Y = y;
 
    #pragma omp parallel for schedule(static)
    for (int i = 0; i < n; ++i) {
