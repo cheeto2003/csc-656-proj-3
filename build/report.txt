@@ -1,0 +1,13 @@
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:15:22: missed: couldn't vectorize loop
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:21:22: missed: not vectorized: complicated access pattern.
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:20:21: optimized: loop vectorized using 32 byte vectors
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:20:21: optimized: loop vectorized using 16 byte vectors
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Analysis failed with vector mode V4DF
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** The result for vector mode V32QI would be the same
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Analysis failed with vector mode V16QI
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Analysis failed with vector mode V8QI
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/g/gene_o/csc-656-proj-3/dgemv-vectorized.cpp:24:12: note: ***** Analysis failed with vector mode V4QI
